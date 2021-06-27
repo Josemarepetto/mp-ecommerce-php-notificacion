@@ -16,7 +16,8 @@
             if($decoded['type']=="payment"){
                 echo $decoded;
                 //Grabo en archivo
-                file_put_contents('inputs.log',$date_created . PHP_EOL, FILE_APPEND);
+                //file_put_contents('inputs.log',$date_created . PHP_EOL, FILE_APPEND);
+                return $input;
             }
         }
         
