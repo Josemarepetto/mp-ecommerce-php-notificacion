@@ -14,11 +14,9 @@
 
         if(isset($decoded['type'])){
             if($decoded['type']=="payment"){
-                $date_created = $decoded['date_created'];
-                echo $date_created;
+                echo $decoded;
                 //Grabo en archivo
                 file_put_contents('inputs.log',$date_created . PHP_EOL, FILE_APPEND);
-                echo '<script>alert(".$date_created.");</script>';
             }
         }
         
