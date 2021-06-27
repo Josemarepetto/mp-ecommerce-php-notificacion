@@ -1,4 +1,4 @@
-<?php require '/.notificaciones.php' ?>
+<?php require './notificaciones.php' ?>
 
 <!DOCTYPE html>
 <html lang="en">
