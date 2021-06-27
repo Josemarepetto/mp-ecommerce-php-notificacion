@@ -2,5 +2,5 @@
   "name": "vendor_name/phpproject",
   "description": "description",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "proprietary"
 }
